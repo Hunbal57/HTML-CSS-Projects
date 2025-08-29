@@ -46,6 +46,7 @@
             padding: 0.2rem 0.6rem;
             cursor: pointer;
             font-size: 1rem;
+            transition: all 0.5s ease 0s;
         }
 
        .navitem a:hover {
@@ -54,10 +55,12 @@
        }
 
        .navitem button:hover {
+            transform: scale3d(1.1);
             background-color: rgb(175, 175, 179);
         }
 
         .svg1 {
             margin-top: 3px;
         }
+
 
